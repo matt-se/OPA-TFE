@@ -1,4 +1,4 @@
-package terraform.denyall
+package terraform.policies
 
 # This rule will always be true, causing the policy to fail for every Terraform plan
 deny[reason] {
