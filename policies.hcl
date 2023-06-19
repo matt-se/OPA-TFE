@@ -1,11 +1,11 @@
 
 ### Use this one to test if it is working
-/*
+
 policy "deny_all" {
   query = "data.terraform.policies.deny_all.deny"
   enforcement_level = "mandatory"
 }
-*/
+
 
 policy "deny_public_ingress" {
   query = "data.terraform.policies.public_ingress.deny"
